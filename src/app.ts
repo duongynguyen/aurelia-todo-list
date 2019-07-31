@@ -10,7 +10,6 @@ export class App {
       this.todos.push(new Todo(this.todoDescription));
       this.todoDescription = '';
     }
-    console.log('>>> todos', this.todos)
   }
 
   removeTodo(todo) {
